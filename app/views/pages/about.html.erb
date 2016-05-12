@@ -1,74 +1,55 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>About</title>
+		<%= stylesheet_link_tag 'style' %> 
+	</head>
 
-      <head>
-      	    <meta charset="utf-8">
-      	    <title>About</title>
-      	    <link rel="stylesheet" href="css/style.css">
-      </head>
+	<body class="landing">
 
-      <body>
-			
-			<!-- ---------------- -->
-			<!-- Area1 = Nav Bar -->
-			<!-- ---------------- -->
-			
-			<div class="about1">
-				
-				<!-- Nav Bar -->
-				<header>
-					<nav class="nav">
-						<ul>
-							<li><%= link_to 'Home', root_path %></li>
-							<li><%= link_to 'About', about_path %></li>
-						</ul>
-					</nav>
-				</header> <!-- End Nav Bar -->
-     	    	
-           </div> <!-- End Area1 -->
-           
-           
-           
-       <!-- ------------- -->
-       <!-- Area2 = Main: -->
-		   <!-- ------------- -->
-		   
-		   <!-- Main -->
-		   <section id="main" class="wrapper">
-			   
-			   <div class="container">
-				   
-				   <header class="major">
-					   <h2>About us</h2>
-					   <p>We want to spread your words to the world :) </p>
-				   </header>
-				   
-				   <%= image_tag 'rivercity.jpg' %>
-				   
-				   <p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
-				   <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
-				   <p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+		    <!-- Header -->
+			<header id="header">
+				<h1><a href="#">AB</a></h1>
 
-			   </div>
-			   
-		   </section>
-           
-           
-           
-       <!-- -------------- -->
-       <!-- Area3 = Footer -->
-		   <!-- -------------- -->
-		   
-		   <!-- Footer -->
-		   <div class="about3">
-			   
-			   <footer>
-				   <p>&copy; Alpha Blog Assignment 2016</p>
-			   </footer>
-			   
-		   </div> <!-- End About3 -->
-		       
-      </body>
+				<nav id="nav">
+					<ul>
+						<li><%= link_to 'Home', root_path %></li>
+						<li><%= link_to 'About', about_path %></li>
+					</ul>
+				</nav>
+			</header>
 
+		<!-- Main -->
+			<section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>About us</h2>
+						<p>We are here to help you to blog successful</p>
+					</header>
+
+					<a href="#" class="image fit"><%= image_tag 'rivercity.jpg' %></a>
+					<div class="text-area">
+						<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+						<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+						<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+                    </div>
+				</div>
+			</section>
+
+
+		    <!-- Footer -->
+			<footer id="footer">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; Alpha Blog Assignment 2016.</li>
+							</ul>		
+						</div>
+					</div>
+			</footer>
+
+	</body>
 </html>

@@ -1,120 +1,103 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Alpha Blog</title>
+		<%= stylesheet_link_tag 'style' %> 
+	</head>
 
-      <head>
-      	    <meta charset="utf-8">
-      	    <title>Homepage</title>
-      	    <link rel="stylesheet" href="css/style.css">
-      </head>
+	<body class="landing">
 
-      <body>
-			
-			<!-- ------------------------- -->
-			<!-- Area1 = Nav Bar + Banner: -->
-			<!-- ------------------------- -->
-			
-			<div class="area1">
-				
-				<!-- Nav Bar -->
-				<header>
-					<nav class="nav">
-						<ul>
-							<li><%= link_to 'Home', root_path %></li>
-							<li><%= link_to 'About', about_path %></li>
-						</ul>
-					</nav>
-				</header> <!-- End Nav Bar -->
-     	
-				<!-- Banner -->
-				<section id="banner">
-					<h2>Welcome to Alpha Blog!</h2>
-					<p>Blog with us and become Alpha!</p>
-				</section> <!-- End Banner -->
-     	    	
-           </div> <!-- End Area1 -->
-           
-           
-       <!-- --------------------------------------- -->
-       <!-- Area2 = Box Top + Box-Left + Box-Right: -->
-		   <!-- --------------------------------------- -->
-		   
-      <div class="area2">
-			   
-         <!-- Box Top -->
-			   <div class="box-top">
-				   <header class="box-top-content">
-					   <h2>Learn how to blog successfully</h2>
-					   <p>Lorem ipsum dolor sit amet, delectus consequatur, similique quia!</p>
-				   </header> 
-			   </div> <!-- End Box Top -->
+		    <!-- Header -->
+			<header id="header">
+				<h1><a href="#">AB</a></h1>
+
+				<nav id="nav">
+					<ul>
+						<li><%= link_to 'Home', root_path %></li>
+						<li><%= link_to 'About', about_path %></li>
+						<li><a href="#" class="button special">Sign In</a></li>
+					</ul>
+				</nav>
+			</header>
 
 
-			   <!-- Box Left -->
-			   <div class="box-left">
-				   
-				   <aside class="side-left">
-					   <h3>Start Blogging Now</h3>
-					   <p>Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
-				   </aside>
-				   		
-			   </div> <!-- End Box Left -->
+		    <!-- Banner -->
+			<section id="banner">
+				<h2>Welcome to Alpha Blog!</h2>
+				<p>Blog with us and become Alpha!</p>
+			</section>
+
+
+		    <!-- One -->
+			<section id="one" class="wrapper style1 special">
+				<div class="container">
+
+					<header class="major">
+
+						<h2>Conquer the world with your words!</h2>
+
+						<p>Lorem ipsum dolor sit amet, delectus consequatur, similique quia!</p>
+
+					</header>
+
+				</div>
+
+			</section>
+
+
+		    <!-- Two -->
+			<section id="three" class="wrapper style3 special">
+
+				<div class="container">
+
+					<header class="major">
+
+						<h2>Sing Up now!</h2>
+
+					</header>
+
+				</div>
+
+
+				<div class="container 50%">
+
+				<!-- FORMS: -->
+				<form class = myform >
 					
+					<label for="name" class="hidden-label">Username:</label>
+					<input id="name" type="text" name="name" placeholder="Username">					
 					
-			   <!-- Box Right -->
-			   <div class="box-right">
-				   
-				   <aside class="side-right">
-					   
-					   <h3>Sign Up Now</h3>
-					   <p>Lorem ipsum dolor sit amet</p><br>
-							
-					   <!-- FORMS: -->
-					   <form>
-						   <label for="userName" class="hidden-label">Username:</label><br>
-						   <input id="userName" type="text" name="nickName" placeholder="Username"><br><br>
-						   
-						   <label for="email" class="hidden-label">Email:</label><br>
-						   <input id="email" type="email" name="email" placeholder="Email"><br><br>
-						   
-						   <label for="password" class="hidden-label">Password:</label><br>
-						   <input id="password" type="password" name="password" placeholder="Password"><br><br>
-						   
-						   <label for="password" class="hidden-label">Repeat Password:</label><br>
-						   <input id="password" type="password" name="password" placeholder="Repeat Password"><br><br>
-						   
-						   <select>
-							   <option>My profile</option>
-							   <option>Account Settings</option>
-						   </select>
-						   
-						   <input type="submit" value="Sign Up"><br><br>
-						   <label>
-							   <input type="checkbox" name="remember" checked="checked" value="yes">
-							   <span class="checkbox-text">Stay signed in</span>
-						   </label>			
-					   </form>
-					   
-				   </aside>
-			   
-			   </div> <!-- End Box Right -->
-           
-       </div> <!-- End Area2 -->
-           
-           
-           
-       <!-- -------------- -->
-       <!-- Area3 = Footer -->
-		   <!-- -------------- -->
-		   
-		   <div class="area3">
-			   
-			   <footer>
-				   <p>&copy; Alpha Blog Assignment 2016</p>
-			   </footer>
-			   
-		   </div> <!-- End Area3 -->
-		       
-      </body>
+					<label for="email" class="hidden-label">Email:</label>
+					<input id="email" type="email" name="email" placeholder="Email">
+					
+					<label for="password" class="hidden-label">Password:</label>
+					<input id="password" type="password" name="password" placeholder="Password">
 
+					<label for="password" class="hidden-label">Password:</label>
+					<input id="password" type="password" name="password" placeholder="Repeat Password">
+					
+					<input type="submit" value="Create account">
+					
+				</form>	
+
+				</div>
+
+			</section>
+	
+
+		    <!-- Footer -->
+			<footer id="footer">
+					<div class="row">
+						<div class="8u 12u$(medium)">
+							<ul class="copyright">
+								<li>&copy; Alpha Blog Assignment 2016.</li>
+							</ul>		
+						</div>
+					</div>
+				</div>
+			</footer>
+
+	</body>
 </html>
