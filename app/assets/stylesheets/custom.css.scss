@@ -1,2 +1,88 @@
+$navbar-default-bg: #262626; /*--> Changed nav-bar default color*/
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+/*Alpha Blog logo*/
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+}
+/*End - Alpha Blog logo*/
+
+
+/*Jumbotron*/
+.center {
+  text-align: center;
+}
+
+/*Jumbotron Background Image with black tint cover*/
+.jumbotron {
+  background-image: asset-url('dark_tint.png'), asset-url('alpha2B.jpg');
+  background-size: cover;
+  background-position: center center;
+  height:600px;
+  color: #ffffff;
+}
+
+/*Jumbotron h1 text*/
+.jumbotron h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight:bold;
+}
+
+/*Jumbotron p text*/
+.jumbotron p {
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight:bold;
+}
+
+/*Sign Up Now button*/
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: white;
+  color: black;
+  margin-top: 160px;
+}
+/*End - Jumbotron*/
+
+
+/*Footer*/
+footer {
+  margin-top: 60px;
+  padding-top: 10px;
+  border-top: 1px solid #d9d9d9;
+  color: #777;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+/*End - Footer*/
