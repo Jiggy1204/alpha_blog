@@ -60,6 +60,18 @@ $navbar-default-bg: #262626; /*--> Changed nav-bar default color*/
 /*End - Jumbotron*/
 
 
+/*Show article*/
+.article-actions {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 5px;
+}
+
+.description {
+  margin-top: 0;
+}
+/*End - Show article*/
+
+
 /*Footer*/
 footer {
   margin-top: 60px;
