@@ -72,6 +72,20 @@ $navbar-default-bg: #262626; /*--> Changed nav-bar default color*/
 /*End - Show article*/
 
 
+/*Listed articles*/
+.article-title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.article-body {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*End - Listed articles*/
+
+
 /*Footer*/
 footer {
   margin-top: 60px;
