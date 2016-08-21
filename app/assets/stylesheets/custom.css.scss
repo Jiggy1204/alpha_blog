@@ -101,6 +101,20 @@ $navbar-default-bg: #262626; /*--> Changed nav-bar default color*/
 /*End - Listed users*/
 
 
+/*Categories tag style on article page*/
+.badge {
+  background-color: #CEF6F5;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.input_checkbox input {
+  width: auto !important;
+}
+/*End - Categories tag style on article page*/
+
+
 /*Footer*/
 footer {
   margin-top: 60px;
